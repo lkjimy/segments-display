@@ -24,5 +24,6 @@ import segmentsDisplay from 'segments-display'
 * [ ] 7, 14 and 16 segments displays
 * [ ] Data-oriented setup
 * [ ] Programatic setup
-* [ ] Library-less package
+* [ ] No external libraries
 * [ ] Customizable colors... Maybe more
+* [ ] Binary library for display characters
