@@ -1,0 +1,71 @@
+.display {
+  font-size: .625rem;
+  position: relative;
+  height: 23em;
+  width: 15em;
+}
+
+.display div[class*="SEG-"] {
+  position: absolute;
+  border-radius: 1em;
+  background: rgba(254, 0, 0, 0.15);
+  transition: background .2s ease;
+}
+
+.display div[class*="SEG-"].active {
+  background: #fe0000;
+  box-shadow: 0 0 1.5em rgba(254, 0, 0, 0.7);
+}
+
+.SEG-A {
+  top: 4%;
+}
+
+.SEG-B {
+  right: 26%;
+}
+
+.SEG-C {
+  right: 26%;
+}
+
+.SEG-D {
+  top: 85.5%;
+}
+
+.SEG-E {
+  left: 6%;
+}
+
+.SEG-F {
+  left: 6%;
+}
+
+.SEG-G {
+  top: 44.6%;
+}
+
+.SEG-H {
+  top: 85.5%;
+  right: 9%;
+  height: 1.3em;
+  width: 1.3em;
+}
+
+.SEG-B, .SEG-F {
+  top: 10%;
+  bottom: 55%;
+  width: 1.3em;
+}
+
+.SEG-C, .SEG-E {
+  top: 50%;
+  bottom: 15%;
+  width: 1.3em;
+}
+
+.SEG-A, .SEG-D, .SEG-G {
+  left: 13.5%;
+  right: 33%;
+  height: 1.3em;
+}
