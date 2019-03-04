@@ -21,7 +21,7 @@ import segmentsDisplay from 'segments-display'
 
 ### Milestones
 
-* [ ] 7, 14 and 16 segments displays
+* [ ] 7, 9, 14 and 16 segments displays
 * [ ] Data-oriented setup
 * [ ] Programatic setup
 * [ ] No external libraries
