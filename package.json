@@ -1,12 +1,12 @@
 {
   "name": "segments-display",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple and easy to use segmented display",
-  "main": "src/js/segments-display.min.js",
+  "main": "src/js/segmentsDisplay.min.js",
   "scripts": {
     "dev": "live-server --port=4000",
-    "build-scss": "node-sass ./src/scss/main.scss ./src/css/main.min.css --output-style compressed && node-sass ./src/scss/main.scss ./src/css/main.css --output-style expanded",
-    "uglify-js": "uglifyjs --compress --mangle --output ./src/js/segments-display.min.js -- ./src/js/segments-display.js",
+    "build-scss": "node-sass ./src/scss/main.scss ./src/css/main.min.css --output-style compressed",
+    "uglify-js": "uglifyjs --compress --mangle --output ./src/js/segmentsDisplay.min.js -- ./src/js/segmentsDisplay.js",
     "build": "npm run build-scss && npm run uglify-js"
   },
   "repository": {

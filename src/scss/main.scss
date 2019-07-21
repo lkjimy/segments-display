@@ -1,8 +1,9 @@
 @charset 'utf-8';
 
-  .display {
+  .segments-display {
     font-size: .625rem;
     position: relative;
+    display: inline-block;
     height: 23em;
     width: 15em;
 
@@ -17,57 +18,149 @@
         box-shadow: 0 0 1.5em rgba(254,0,0,.7);
       }
     }
-  }
 
-  .SEG-A {
-    top: 4%;
-  }
+    .SEG-A {
+      top: 4%;
+    }
 
-  .SEG-B {
-    right: 26%;
-  }
+    .SEG-A1 {
+      top: 4%;
+      left: 12.5%;
+      right: 61.5%;
+      height: 1.3em;
+    }
+    
+    .SEG-A2 {
+      top: 4%;
+      left: 42%;
+      right: 32%;
+      height: 1.3em;
+    }
+  
+    .SEG-B {
+      right: 26%;
+    }
+  
+    .SEG-C {
+      right: 26%;
+    }
+  
+    .SEG-D {
+      top: 85.5%;
+    }
+  
+    .SEG-D1 {
+      top: 85.5%;
+      left: 12.5%;
+      right: 61.5%;
+      height: 1.3em;
+    }
+  
+    .SEG-D2 {
+      top: 85.5%;
+      left: 42%;
+      right: 32%;
+      height: 1.3em;
+    }
+  
+    .SEG-E {
+      left: 6%;
+    }
+  
+    .SEG-F {
+      left: 6%;
+    }
+  
+    .SEG-G {
+      top: 44.6%;
+    }
+  
+    .SEG-G1 {
+      top: 44.6%;
+      left: 12.5%;
+      right: 63%;
+      height: 1.3em;
+    }
+  
+    .SEG-G2 {
+      top: 44.6%;
+      left: 43.5%;
+      right: 32%;
+      height: 1.3em;
+    }
 
-  .SEG-C {
-    right: 26%;
-  }
+    .SEG-H {
+      height: 34%;
+      width: 1.3em;
+      transform: rotate(-13deg);
+      top: 10%;
+      left: 21%;    
+    }
 
-  .SEG-D {
-    top: 85.5%;
-  }
+    .SEG-I {
+      top: 11%;
+      bottom: 55%;
+      width: 1.3em;
+      left: 35.8%;
+    }
 
-  .SEG-E {
-    left: 6%;
-  }
+    .SEG-J {
+      height: 34%;
+      width: 1.3em;
+      transform: rotate(13deg);
+      top: 10%;
+      left: 50.5%;
+    }
+  
+    .SEG-K {
+      height: 34%;
+      width: 1.3em;
+      transform: rotate(-13deg);
+      top: 51%;
+      left: 50.5%;
+    }
+  
+    .SEG-L {
+      top: 50%;
+      bottom: 16%;
+      width: 1.3em;
+      left: 35.8%;
+    }
+  
+    .SEG-M {
+      height: 34%;
+      width: 1.3em;
+      transform: rotate(13deg);
+      top: 51%;
+      left: 21%;
+    }
+  
+    .SEG-DP {
+      top: 85.5%;
+      right: 9%;
+      height: 1.3em;
+      width: 1.3em;
+    }
+  
+    .SEG-B, .SEG-F {
+      top: 10%;
+      bottom: 55%;
+      width: 1.3em;
+    }
+  
+    .SEG-C, .SEG-E {
+      top: 50%;
+      bottom: 15%;
+      width: 1.3em;
+    }
+  
+    .SEG-A, .SEG-D, .SEG-G {
+      left: 13.5%;
+      right: 33%;
+      height: 1.3em;
+    }
 
-  .SEG-F {
-    left: 6%;
-  }
+    .SEG-A1, .SEG-A2, .SEG-G1, .SEG-G2{
 
-  .SEG-G {
-    top: 44.6%;
-  }
-
-  .SEG-H {
-    top: 85.5%;
-    right: 9%;
-    height: 1.3em;
-    width: 1.3em;
-  }
-
-  .SEG-B, .SEG-F {
-    top: 10%;
-    bottom: 55%;
-    width: 1.3em;
-  }
-
-  .SEG-C, .SEG-E {
-    top: 50%;
-    bottom: 15%;
-    width: 1.3em;
-  }
-
-  .SEG-A, .SEG-D, .SEG-G {
-    left: 13.5%;
-    right: 33%;
-    height: 1.3em;
+    }
   }
