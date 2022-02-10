@@ -21,7 +21,7 @@
   "homepage": "https://github.com/lkjimy/segments-display#readme",
   "devDependencies": {
     "live-server": "^1.2.1",
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "uglify-es": "^3.3.9"
   }
 }
